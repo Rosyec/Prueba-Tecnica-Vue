@@ -3,8 +3,12 @@
 
 const links: Link[] = [ 
     {
-        name: 'Github',
+        name: 'Github - Vue',
         url: 'https://github.com/Rosyec/Prueba-Tecnica-Vue'
+    },
+    {
+        name: 'Github - Api',
+        url: 'https://github.com/Rosyec/Prueba-Tecnica-Api'
     },
     {
         name: 'Api',
