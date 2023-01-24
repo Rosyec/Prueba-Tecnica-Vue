@@ -35,7 +35,7 @@ const Suma = async () => {
         </div>
         <hr>
         <div class="row">
-            <h1 class="display-6 text-center">El resultado es</h1>
+            <h6 class="display-6 text-center" v-if="result">El resultado es</h6>
             <pre class="text-center" v-if="result"> {{ result }} </pre>
             <div class="row d-flex justify-content-center">
                 <span class="loader" v-if="isLoading"></span>

@@ -7,10 +7,6 @@ const links: Link[] = [
         url: 'https://github.com/Rosyec/Prueba-Tecnica-Vue'
     },
     {
-        name: 'Deploy',
-        url: ''
-    },
-    {
         name: 'Api',
         url: 'https://api-vue.vercel.app/'
     }

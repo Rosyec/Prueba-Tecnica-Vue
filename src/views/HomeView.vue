@@ -5,7 +5,7 @@ import Suma from '../components/Suma.vue'
 
 <template>
   <div class="container text-center">
-    <h1 class="display-6 my-3">Ingresa los valores</h1>
+    <h1 class="text-success my-3">Ingresa los valores</h1>
     <Suma></Suma>
   </div>
 </template>
