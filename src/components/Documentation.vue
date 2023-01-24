@@ -8,7 +8,7 @@ const links: Link[] = [
     },
     {
         name: 'Api',
-        url: 'https://api-vue.vercel.app/'
+        url: 'https://prueba-tecnica-api.vercel.app/'
     }
  ];
 
