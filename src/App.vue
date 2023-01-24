@@ -11,7 +11,7 @@ import HelloWorld from './components/HelloWorld.vue'
       <HelloWorld msg="NegociApp SAS" />
 
       <nav>
-        <RouterLink to="/">Prueba</RouterLink>
+        <RouterLink to="/">Test</RouterLink>
         <RouterLink to="/about">Acerce de</RouterLink>
       </nav>
     </div>

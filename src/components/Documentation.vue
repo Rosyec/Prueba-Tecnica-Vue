@@ -8,11 +8,11 @@ const links: Link[] = [
     },
     {
         name: 'Deploy',
-        url: 'https://github.com/Rosyec/Prueba-Tecnica-Vue'
+        url: ''
     },
     {
         name: 'Api',
-        url: 'https://github.com/Rosyec/Prueba-Tecnica-Vue'
+        url: 'https://api-vue.vercel.app/'
     }
  ];
 
@@ -26,7 +26,7 @@ interface Link {
 <template>
     <div class="container">
         <div class="row">
-            <a v-for="link of links"  v-bind:href="link.url"> {{ link.name }} </a>
+            <a v-for="link of links" target="_blank"  v-bind:href="link.url"> {{ link.name }} </a>
         </div>
     </div>
 </template>
